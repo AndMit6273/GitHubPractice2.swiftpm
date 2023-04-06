@@ -5,7 +5,7 @@ struct ContentView: View {
         VStack {
             NavigationView{
                 NavigationLink("To Noun View") {
-                    NounView
+                    NounView()
                 }
             }
             
