@@ -4,7 +4,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             NavigationView{
-                NavigationLink("To Other View") {
+                NavigationLink("To Noun View") {
                     NounView
                 }
             }
